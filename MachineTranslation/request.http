@@ -1,0 +1,16 @@
+### Détection de langue (darija)
+POST http://127.0.0.1:8002/detect
+Content-Type: application/json
+
+{
+  "text": "بغيت نجدد الباسبور ديالي"
+}
+
+### Traduction v2 (langue détectée automatiquement)
+POST http://127.0.0.1:8002/translate/v2
+Content-Type: application/json
+
+{
+  "text": "Je veux renouveler mon passeport",
+  "tgt_lang": "ary_Arab"
+}

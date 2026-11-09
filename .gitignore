@@ -1,0 +1,24 @@
+﻿# On ignore tout le dossier vs...
+/*
+
+# ...sauf ces deux dossiers du TP
+!/.gitignore
+!/MachineTranslation/
+!/nextreact/
+
+# Modele d'IA (trop lourd pour GitHub)
+MachineTranslation/nllb-600M/
+*.safetensors
+*.bin
+
+# Node.js / Next.js
+node_modules/
+.next/
+
+# Python
+__pycache__/
+
+# Divers
+.vscode/
+traduction.txt
+*.code-workspace
